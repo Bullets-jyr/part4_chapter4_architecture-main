@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:injectable/injectable.dart';
 
+/// TOdoData =>
 @singleton
 class TodoController extends GetxController {
   final RxList<Todo> todoList = <Todo>[].obs;
