@@ -12,8 +12,10 @@ class TodoUseCase {
   /// CRUD
 }
 
+/// 2번보다 더 좋은 방식
 /// 1) Use Case feature 단위 클래스
 class AddTodoUseCase implements UseCase<void, Todo> {
+  // locator(): get_it
   // final TodoRepository<LocalDBError> _repository = locator();
   final TodoRepository<LocalDBError> _repository;
   // final TodoLocalRepository
